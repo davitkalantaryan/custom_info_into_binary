@@ -1,6 +1,6 @@
 //
-// file:			insert_custom_info_into_bin_test02.cpp
-// path:			src/tests/main_url_capture_api_test01.cpp
+// file:			insert_custom_info_into_bin_test02.c
+// path:			src/tests/insert_custom_info_into_bin_test02/insert_custom_info_into_bin_test02.c
 // created on:		2023 Feb 27
 // created by:		Davit Kalantaryan (davit.kalantaryan@desy.de)
 //
