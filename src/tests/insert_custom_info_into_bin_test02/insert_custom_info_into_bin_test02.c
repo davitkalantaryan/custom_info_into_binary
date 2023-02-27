@@ -1,11 +1,9 @@
 //
-// file:			main_insert_custom_info_into_exe_test01.cpp
-// path:			src/tests/main_insert_custom_info_into_exe_test01.cpp
+// file:			insert_custom_info_into_bin_test02.cpp
+// path:			src/tests/main_url_capture_api_test01.cpp
 // created on:		2023 Feb 27
 // created by:		Davit Kalantaryan (davit.kalantaryan@desy.de)
 //
-
-//#include <iostream>
 
 
 #ifdef __cplusplus
@@ -54,13 +52,3 @@ CPPUTILS_INSERT_COMMENT_TO_BIN_RAW_RAW(__section_var1, ".mysect", "commit-id=" S
 	CPPUTILS_INSERT_COMMENT_TO_BIN_RAW_RAW(CPPUTILS_NAME_WITH_NUM(___section_var_),_sectionName,_comment)
 
 CPPUTILS_INSERT_COMMENT_TO_BIN_RAW(".mysect", "__commit-id=" STRVAL(COMMIT_ID))
-
-
-
-int main(int a_argc, char* a_argv[])
-{
-	//(void)commit_id;
-	(void)a_argc;
-	(void)a_argv;
-	return 0;
-}
